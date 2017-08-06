@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool", "MagicTools\Mag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool.Util", "MagicTool.Util\MagicTool.Util.csproj", "{DDEC688A-46C0-4454-AA8B-EA9BF7B2946A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool.CodeGenerator", "MagicTool.CodeGenerator\MagicTool.CodeGenerator.csproj", "{AF8A3547-47DF-4CE7-91F2-0312DDE02D0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DDEC688A-46C0-4454-AA8B-EA9BF7B2946A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDEC688A-46C0-4454-AA8B-EA9BF7B2946A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDEC688A-46C0-4454-AA8B-EA9BF7B2946A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8A3547-47DF-4CE7-91F2-0312DDE02D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8A3547-47DF-4CE7-91F2-0312DDE02D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8A3547-47DF-4CE7-91F2-0312DDE02D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8A3547-47DF-4CE7-91F2-0312DDE02D0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
