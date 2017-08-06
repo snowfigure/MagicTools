@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MagicTool.CodeGenerator.Properties {
+namespace MagicTool.Search.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

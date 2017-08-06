@@ -4,29 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0EBD96AB-0E5E-4BC9-9F58-B33B168DAB4F}</ProjectGuid>
+    <ProjectGuid>{22082B18-FEA0-4B68-8DEF-A005ACFC9548}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MagicTool</RootNamespace>
-    <AssemblyName>MagicTool</AssemblyName>
+    <RootNamespace>MagicTool.Record</RootNamespace>
+    <AssemblyName>MagicTool.Record</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,12 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>sd_tools_32px.ico</ApplicationIcon>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>MagicTool.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -75,9 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormMain.resx">
-      <DependentUpon>FormMain.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -102,37 +78,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\sd_tools_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sd_tools_24px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sd_tools_32px.ico" />
-    <None Include="Resources\CycleButton.png" />
-    <Content Include="sd_tools_32px.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MagicTool.CodeGenerator\MagicTool.CodeGenerator.csproj">
-      <Project>{af8a3547-47df-4ce7-91f2-0312dde02d0d}</Project>
-      <Name>MagicTool.CodeGenerator</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MagicTool.Record\MagicTool.Record.csproj">
-      <Project>{22082b18-fea0-4b68-8def-a005acfc9548}</Project>
-      <Name>MagicTool.Record</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MagicTool.Search\MagicTool.Search.csproj">
       <Project>{230ad8ef-a541-4b4f-8dbc-4b6a065b1b29}</Project>
       <Name>MagicTool.Search</Name>

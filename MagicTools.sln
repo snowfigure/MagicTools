@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool.Util", "MagicTool
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool.CodeGenerator", "MagicTool.CodeGenerator\MagicTool.CodeGenerator.csproj", "{AF8A3547-47DF-4CE7-91F2-0312DDE02D0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool.Search", "MagicTool.Search\MagicTool.Search.csproj", "{230AD8EF-A541-4B4F-8DBC-4B6A065B1B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool.Record", "MagicTool.Record\MagicTool.Record.csproj", "{22082B18-FEA0-4B68-8DEF-A005ACFC9548}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{AF8A3547-47DF-4CE7-91F2-0312DDE02D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8A3547-47DF-4CE7-91F2-0312DDE02D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8A3547-47DF-4CE7-91F2-0312DDE02D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230AD8EF-A541-4B4F-8DBC-4B6A065B1B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230AD8EF-A541-4B4F-8DBC-4B6A065B1B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230AD8EF-A541-4B4F-8DBC-4B6A065B1B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230AD8EF-A541-4B4F-8DBC-4B6A065B1B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22082B18-FEA0-4B68-8DEF-A005ACFC9548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22082B18-FEA0-4B68-8DEF-A005ACFC9548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22082B18-FEA0-4B68-8DEF-A005ACFC9548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22082B18-FEA0-4B68-8DEF-A005ACFC9548}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
