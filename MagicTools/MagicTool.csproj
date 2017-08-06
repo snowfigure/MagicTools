@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sd_tools_32px.ico" />
+    <None Include="Resources\CycleButton.png" />
     <Content Include="sd_tools_32px.ico" />
   </ItemGroup>
   <ItemGroup>
