@@ -69,5 +69,12 @@ namespace MagicTool
             float fs = this.LabelMainRecord.Font.Size;
             this.LabelMainRecord.Font = new Font(ff, fs, FontStyle.Regular);
         }
+
+        private void PictureBoxRecordButton_Click(object sender, EventArgs e)
+        {
+            Record.FormMain record = new Record.FormMain();
+            record.ShowInTaskbar = true;
+            record.Show();
+        }
     }
 }

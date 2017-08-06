@@ -258,6 +258,7 @@
             this.PictureBoxRecordButton.Size = new System.Drawing.Size(201, 201);
             this.PictureBoxRecordButton.TabIndex = 0;
             this.PictureBoxRecordButton.TabStop = false;
+            this.PictureBoxRecordButton.Click += new System.EventHandler(this.PictureBoxRecordButton_Click);
             this.PictureBoxRecordButton.MouseLeave += new System.EventHandler(this.RecordButton_MouseLeave);
             this.PictureBoxRecordButton.MouseHover += new System.EventHandler(this.RecordButton_MouseHover);
             // 
