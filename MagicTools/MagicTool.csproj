@@ -67,7 +67,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="uitl\Const.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +108,7 @@
     <None Include="Resources\sd_tools_24px.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\sd_tools_32px.ico" />
     <Content Include="sd_tools_32px.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +122,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MagicTool.Util\MagicTool.Util.csproj">
+      <Project>{ddec688a-46c0-4454-aa8b-ea9bf7b2946a}</Project>
+      <Name>MagicTool.Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
