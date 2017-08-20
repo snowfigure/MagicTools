@@ -87,6 +87,19 @@
             this.panel25 = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
             this.panel27 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.panel37 = new System.Windows.Forms.Panel();
+            this.panel38 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList1 = new MagicTool.UserControls.UserCtrl_ToDoList();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.TLP_Main.SuspendLayout();
@@ -112,10 +125,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicBox_Conn)).BeginInit();
             this.panel7.SuspendLayout();
             this.TabControlMain.SuspendLayout();
+            this.TabPage_ToDoList.SuspendLayout();
             this.TabPage_Tools.SuspendLayout();
             this.TabPage_Add.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxRecordButton)).BeginInit();
             this.TLP_Tools.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.panel28.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -316,6 +332,7 @@
             this.tableLayoutPanel4.Controls.Add(this.Panel_Conn, 0, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -450,7 +467,7 @@
             this.TabControlMain.Controls.Add(this.TabPage_Tools);
             this.TabControlMain.Controls.Add(this.TabPage_Add);
             this.TabControlMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TabControlMain.ItemSize = new System.Drawing.Size(120, 6);
+            this.TabControlMain.ItemSize = new System.Drawing.Size(120, 12);
             this.TabControlMain.Location = new System.Drawing.Point(0, 0);
             this.TabControlMain.Name = "TabControlMain";
             this.TabControlMain.SelectedIndex = 0;
@@ -459,20 +476,21 @@
             // 
             // TabPage_ToDoList
             // 
-            this.TabPage_ToDoList.Location = new System.Drawing.Point(4, 5);
+            this.TabPage_ToDoList.Controls.Add(this.tableLayoutPanel5);
+            this.TabPage_ToDoList.Location = new System.Drawing.Point(4, 16);
             this.TabPage_ToDoList.Margin = new System.Windows.Forms.Padding(0);
             this.TabPage_ToDoList.Name = "TabPage_ToDoList";
-            this.TabPage_ToDoList.Size = new System.Drawing.Size(308, 607);
+            this.TabPage_ToDoList.Size = new System.Drawing.Size(308, 596);
             this.TabPage_ToDoList.TabIndex = 0;
             this.TabPage_ToDoList.Text = "           ";
             this.TabPage_ToDoList.UseVisualStyleBackColor = true;
             // 
             // TabPage_Conn
             // 
-            this.TabPage_Conn.Location = new System.Drawing.Point(4, 10);
+            this.TabPage_Conn.Location = new System.Drawing.Point(4, 16);
             this.TabPage_Conn.Name = "TabPage_Conn";
             this.TabPage_Conn.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage_Conn.Size = new System.Drawing.Size(308, 602);
+            this.TabPage_Conn.Size = new System.Drawing.Size(308, 596);
             this.TabPage_Conn.TabIndex = 1;
             this.TabPage_Conn.Text = "           ";
             this.TabPage_Conn.UseVisualStyleBackColor = true;
@@ -790,6 +808,153 @@
             this.panel27.Size = new System.Drawing.Size(102, 101);
             this.panel27.TabIndex = 18;
             // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 1;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.Controls.Add(this.panel38, 0, 10);
+            this.tableLayoutPanel5.Controls.Add(this.panel37, 0, 9);
+            this.tableLayoutPanel5.Controls.Add(this.panel36, 0, 8);
+            this.tableLayoutPanel5.Controls.Add(this.panel35, 0, 7);
+            this.tableLayoutPanel5.Controls.Add(this.panel34, 0, 6);
+            this.tableLayoutPanel5.Controls.Add(this.panel33, 0, 5);
+            this.tableLayoutPanel5.Controls.Add(this.panel32, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.panel31, 0, 3);
+            this.tableLayoutPanel5.Controls.Add(this.panel30, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.panel29, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.panel28, 0, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 12;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(308, 596);
+            this.tableLayoutPanel5.TabIndex = 0;
+            // 
+            // panel28
+            // 
+            this.panel28.Controls.Add(this.userCtrl_ToDoList1);
+            this.panel28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel28.Location = new System.Drawing.Point(0, 0);
+            this.panel28.Margin = new System.Windows.Forms.Padding(0);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(308, 48);
+            this.panel28.TabIndex = 0;
+            // 
+            // panel29
+            // 
+            this.panel29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel29.Location = new System.Drawing.Point(0, 48);
+            this.panel29.Margin = new System.Windows.Forms.Padding(0);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(308, 48);
+            this.panel29.TabIndex = 1;
+            // 
+            // panel30
+            // 
+            this.panel30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel30.Location = new System.Drawing.Point(0, 96);
+            this.panel30.Margin = new System.Windows.Forms.Padding(0);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(308, 48);
+            this.panel30.TabIndex = 2;
+            // 
+            // panel31
+            // 
+            this.panel31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel31.Location = new System.Drawing.Point(0, 144);
+            this.panel31.Margin = new System.Windows.Forms.Padding(0);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(308, 48);
+            this.panel31.TabIndex = 3;
+            // 
+            // panel32
+            // 
+            this.panel32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel32.Location = new System.Drawing.Point(0, 192);
+            this.panel32.Margin = new System.Windows.Forms.Padding(0);
+            this.panel32.Name = "panel32";
+            this.panel32.Size = new System.Drawing.Size(308, 48);
+            this.panel32.TabIndex = 4;
+            // 
+            // panel33
+            // 
+            this.panel33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel33.Location = new System.Drawing.Point(0, 240);
+            this.panel33.Margin = new System.Windows.Forms.Padding(0);
+            this.panel33.Name = "panel33";
+            this.panel33.Size = new System.Drawing.Size(308, 48);
+            this.panel33.TabIndex = 5;
+            // 
+            // panel34
+            // 
+            this.panel34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel34.Location = new System.Drawing.Point(0, 288);
+            this.panel34.Margin = new System.Windows.Forms.Padding(0);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(308, 48);
+            this.panel34.TabIndex = 6;
+            // 
+            // panel35
+            // 
+            this.panel35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel35.Location = new System.Drawing.Point(0, 336);
+            this.panel35.Margin = new System.Windows.Forms.Padding(0);
+            this.panel35.Name = "panel35";
+            this.panel35.Size = new System.Drawing.Size(308, 48);
+            this.panel35.TabIndex = 7;
+            // 
+            // panel36
+            // 
+            this.panel36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel36.Location = new System.Drawing.Point(0, 384);
+            this.panel36.Margin = new System.Windows.Forms.Padding(0);
+            this.panel36.Name = "panel36";
+            this.panel36.Size = new System.Drawing.Size(308, 48);
+            this.panel36.TabIndex = 8;
+            // 
+            // panel37
+            // 
+            this.panel37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel37.Location = new System.Drawing.Point(0, 432);
+            this.panel37.Margin = new System.Windows.Forms.Padding(0);
+            this.panel37.Name = "panel37";
+            this.panel37.Size = new System.Drawing.Size(308, 48);
+            this.panel37.TabIndex = 9;
+            // 
+            // panel38
+            // 
+            this.panel38.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel38.Location = new System.Drawing.Point(0, 480);
+            this.panel38.Margin = new System.Windows.Forms.Padding(0);
+            this.panel38.Name = "panel38";
+            this.panel38.Size = new System.Drawing.Size(308, 48);
+            this.panel38.TabIndex = 10;
+            // 
+            // userCtrl_ToDoList1
+            // 
+            this.userCtrl_ToDoList1.Ctime = null;
+            this.userCtrl_ToDoList1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList1.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList1.Name = "userCtrl_ToDoList1";
+            this.userCtrl_ToDoList1.Selected = false;
+            this.userCtrl_ToDoList1.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList1.SortIdx = 1;
+            this.userCtrl_ToDoList1.TabIndex = 0;
+            this.userCtrl_ToDoList1.Title = null;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -833,11 +998,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicBox_Conn)).EndInit();
             this.panel7.ResumeLayout(false);
             this.TabControlMain.ResumeLayout(false);
+            this.TabPage_ToDoList.ResumeLayout(false);
             this.TabPage_Tools.ResumeLayout(false);
             this.TabPage_Add.ResumeLayout(false);
             this.TabPage_Add.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxRecordButton)).EndInit();
             this.TLP_Tools.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.panel28.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -902,6 +1070,19 @@
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.Panel panel38;
+        private System.Windows.Forms.Panel panel37;
+        private System.Windows.Forms.Panel panel36;
+        private System.Windows.Forms.Panel panel35;
+        private System.Windows.Forms.Panel panel34;
+        private System.Windows.Forms.Panel panel33;
+        private System.Windows.Forms.Panel panel32;
+        private System.Windows.Forms.Panel panel31;
+        private System.Windows.Forms.Panel panel30;
+        private System.Windows.Forms.Panel panel29;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList1;
     }
 }
 

@@ -68,7 +68,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -153,6 +152,10 @@
     <ProjectReference Include="..\MagicTool.Search\MagicTool.Search.csproj">
       <Project>{230ad8ef-a541-4b4f-8dbc-4b6a065b1b29}</Project>
       <Name>MagicTool.Search</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MagicTool.UserControls\MagicTool.UserControls.csproj">
+      <Project>{C7B418D2-CBA4-463C-AF14-46CE9E5A55E1}</Project>
+      <Name>MagicTool.UserControls</Name>
     </ProjectReference>
     <ProjectReference Include="..\MagicTool.Util\MagicTool.Util.csproj">
       <Project>{ddec688a-46c0-4454-aa8b-ea9bf7b2946a}</Project>

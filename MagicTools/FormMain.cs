@@ -27,6 +27,8 @@ namespace MagicTool
             this.TabPagePanelList.Add(this.Panel_Conn);
             this.TabPagePanelList.Add(this.Panel_Tools);
             this.TabPagePanelList.Add(this.Panel_Add);
+
+            
         }
 
         private void MainClose_Click(object sender, EventArgs e)
@@ -36,12 +38,12 @@ namespace MagicTool
 
         private void MainClose_MouseHover(object sender, EventArgs e)
         {
-            this.PanelMainClose.BackColor = Const.ColorCloseBackHover;
+            this.PanelMainClose.BackColor = Colors.ColorCloseBackHover;
         }
 
         private void MainClose_MouseLeave(object sender, EventArgs e)
         {
-            this.PanelMainClose.BackColor = Const.ColorCloseBackDefault;
+            this.PanelMainClose.BackColor = Colors.ColorCloseBackDefault;
         }
 
         
@@ -94,14 +96,14 @@ namespace MagicTool
         {
             foreach(Panel panel in this.TabPagePanelList)
             {
-                panel.BackColor = Const.TabControlDefault;
+                panel.BackColor = Colors.TabControlDefault;
             }
 
             if (tab_idx >= this.TabPagePanelList.Count)
             {
                 return;
             }
-            this.TabPagePanelList[tab_idx].BackColor = Const.TabControlSelected;
+            this.TabPagePanelList[tab_idx].BackColor = Colors.TabControlSelected;
         }
         private void PicBox_ToDoList_Click(object sender, EventArgs e)
         {
