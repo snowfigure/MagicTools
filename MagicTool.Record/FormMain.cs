@@ -46,12 +46,12 @@ namespace MagicTool.Record
 
         private void MainClose_MouseHover(object sender, EventArgs e)
         {
-            this.PanelMainClose.BackColor = Const.RecoreCloseBackHover;
+            this.PanelMainClose.BackColor = Colors.RecoreCloseBackHover;
         }
 
         private void MainClose_MouseLeave(object sender, EventArgs e)
         {
-            this.PanelMainClose.BackColor = Const.RecoreCloseBackDefault;
+            this.PanelMainClose.BackColor = Colors.RecoreCloseBackDefault;
         }
 
         private void FormMain_Paint(object sender, PaintEventArgs e)

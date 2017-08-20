@@ -24,7 +24,7 @@ namespace MagicTool.Util
 
         public static String Title = AppRecord.Name + " " + AppRecord.Ver;
     }
-    public class Const
+    public class Colors
     {
         
 
@@ -36,6 +36,10 @@ namespace MagicTool.Util
 
         public static Color TabControlDefault = Color.FromArgb(240, 240, 240);
         public static Color TabControlSelected = Color.FromArgb(255, 255, 255);
+
+        public static Color ToDoListItemDefault = Color.Transparent;
+        public static Color ToDoListItemSelected = Color.FromArgb(253, 236, 170);
+        public static Color ToDoListItemHover = Color.FromArgb(252, 240, 193);
     }
 
     public class MySql
