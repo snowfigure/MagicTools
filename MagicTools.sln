@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool.Search", "MagicTo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool.Record", "MagicTool.Record\MagicTool.Record.csproj", "{22082B18-FEA0-4B68-8DEF-A005ACFC9548}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTool.DbAccess", "MagicTool.DbAccess\MagicTool.DbAccess.csproj", "{4DB12411-319D-4281-973D-C30BD5BE1FF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{22082B18-FEA0-4B68-8DEF-A005ACFC9548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22082B18-FEA0-4B68-8DEF-A005ACFC9548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22082B18-FEA0-4B68-8DEF-A005ACFC9548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB12411-319D-4281-973D-C30BD5BE1FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB12411-319D-4281-973D-C30BD5BE1FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB12411-319D-4281-973D-C30BD5BE1FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB12411-319D-4281-973D-C30BD5BE1FF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

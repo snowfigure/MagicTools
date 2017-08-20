@@ -7,15 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MagicTool.Util;
 
 namespace MagicTool
 {
     public partial class FormMain : Form
     {
         private Point FormPostion = new Point();
+
         public FormMain()
         {
             InitializeComponent();
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            this.LabelMainTitle.Text = Util.App.Title;
         }
 
         private void MainClose_Click(object sender, EventArgs e)
@@ -25,18 +32,15 @@ namespace MagicTool
 
         private void MainClose_MouseHover(object sender, EventArgs e)
         {
-            this.PanelMainClose.BackColor = Util.Const.ColorCloseBackHover;
+            this.PanelMainClose.BackColor = Const.ColorCloseBackHover;
         }
 
         private void MainClose_MouseLeave(object sender, EventArgs e)
         {
-            this.PanelMainClose.BackColor = Util.Const.ColorCloseBackDefault;
+            this.PanelMainClose.BackColor = Const.ColorCloseBackDefault;
         }
 
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-            this.LabelMainTitle.Text = Util.App.Title;
-        }
+        
 
         private void Main_MouseDown(object sender, MouseEventArgs e)
         {
@@ -74,7 +78,12 @@ namespace MagicTool
         {
             Record.FormMain record = new Record.FormMain();
             record.ShowInTaskbar = true;
-            record.Show();
+            record.ShowDialog();
+        }
+
+        private void FormMain_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawRectangle(Pens.Black, 0, 0, this.Width - 1, this.Height - 1);
         }
     }
 }

@@ -13,11 +13,32 @@ namespace MagicTool.Util
 
         public static String Title = App.Name + " " + App.Ver;
     }
+
+    public class AppRecord
+    {
+        private static String Name = "Magic Tools - Record";
+        private static String V = "1";
+        private static String R = "0";
+        private static String C = "0";
+        private static String Ver = AppRecord.V + "." + AppRecord.R + AppRecord.C;
+
+        public static String Title = AppRecord.Name + " " + AppRecord.Ver;
+    }
     public class Const
     {
         
 
         public static Color ColorCloseBackHover = Color.FromArgb(211, 68, 48);
         public static Color ColorCloseBackDefault = Color.FromArgb(234, 75, 53);
+
+        public static Color RecoreCloseBackDefault = Color.FromArgb(7, 134, 238);
+        public static Color RecoreCloseBackHover = Color.FromArgb(234, 75, 53);
+    }
+
+    public class MySql
+    {
+        public static String username = "root";
+        public static String password = "admin1234";
+        public static String schema = "magictool";
     }
 }

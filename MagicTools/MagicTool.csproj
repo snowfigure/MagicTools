@@ -54,6 +54,12 @@
     <StartupObject>MagicTool.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net40\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net40\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -88,6 +94,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -128,6 +135,10 @@
     <ProjectReference Include="..\MagicTool.CodeGenerator\MagicTool.CodeGenerator.csproj">
       <Project>{af8a3547-47df-4ce7-91f2-0312dde02d0d}</Project>
       <Name>MagicTool.CodeGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MagicTool.DbAccess\MagicTool.DbAccess.csproj">
+      <Project>{4db12411-319d-4281-973d-c30bd5be1ff8}</Project>
+      <Name>MagicTool.DbAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\MagicTool.Record\MagicTool.Record.csproj">
       <Project>{22082b18-fea0-4b68-8def-a005acfc9548}</Project>
