@@ -117,6 +117,12 @@
   <ItemGroup>
     <None Include="Resources\sd_tools_32px.ico" />
     <None Include="Resources\CycleButton.png" />
+    <None Include="Resources\list_.png" />
+    <None Include="Resources\list_32.png" />
+    <None Include="Resources\list_24.png" />
+    <None Include="Resources\add_24.png" />
+    <None Include="Resources\settings_24.png" />
+    <None Include="Resources\conn_24.png" />
     <Content Include="sd_tools_32px.ico" />
   </ItemGroup>
   <ItemGroup>

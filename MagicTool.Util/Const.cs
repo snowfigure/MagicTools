@@ -33,6 +33,9 @@ namespace MagicTool.Util
 
         public static Color RecoreCloseBackDefault = Color.FromArgb(7, 134, 238);
         public static Color RecoreCloseBackHover = Color.FromArgb(234, 75, 53);
+
+        public static Color TabControlDefault = Color.FromArgb(240, 240, 240);
+        public static Color TabControlSelected = Color.FromArgb(255, 255, 255);
     }
 
     public class MySql

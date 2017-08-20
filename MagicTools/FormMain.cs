@@ -14,7 +14,7 @@ namespace MagicTool
     public partial class FormMain : Form
     {
         private Point FormPostion = new Point();
-
+        private List<Panel> TabPagePanelList = new List<Panel>();
         public FormMain()
         {
             InitializeComponent();
@@ -23,6 +23,10 @@ namespace MagicTool
         private void FormMain_Load(object sender, EventArgs e)
         {
             this.LabelMainTitle.Text = Util.App.Title;
+            this.TabPagePanelList.Add(this.Panel_ToDoList);
+            this.TabPagePanelList.Add(this.Panel_Conn);
+            this.TabPagePanelList.Add(this.Panel_Tools);
+            this.TabPagePanelList.Add(this.Panel_Add);
         }
 
         private void MainClose_Click(object sender, EventArgs e)
@@ -84,6 +88,44 @@ namespace MagicTool
         private void FormMain_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawRectangle(Pens.Black, 0, 0, this.Width - 1, this.Height - 1);
+        }
+
+        private void PicBox_SelectChange(Int16 tab_idx)
+        {
+            foreach(Panel panel in this.TabPagePanelList)
+            {
+                panel.BackColor = Const.TabControlDefault;
+            }
+
+            if (tab_idx >= this.TabPagePanelList.Count)
+            {
+                return;
+            }
+            this.TabPagePanelList[tab_idx].BackColor = Const.TabControlSelected;
+        }
+        private void PicBox_ToDoList_Click(object sender, EventArgs e)
+        {
+            this.TabControlMain.SelectedTab = this.TabPage_ToDoList;
+            this.PicBox_SelectChange(0);
+        }
+
+        private void PicBox_Conn_Click(object sender, EventArgs e)
+        {
+            this.TabControlMain.SelectedTab = this.TabPage_Conn;
+            this.PicBox_SelectChange(1);
+        }
+
+        private void PicBox_Tools_Click(object sender, EventArgs e)
+        {
+            this.TabControlMain.SelectedTab = this.TabPage_Tools;
+            this.PicBox_SelectChange(2);
+        }
+
+        
+        private void PicBox_Add_Click(object sender, EventArgs e)
+        {
+            this.TabControlMain.SelectedTab = this.TabPage_Add;
+            this.PicBox_SelectChange(3);
         }
     }
 }
