@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MagicTool.Util;
+using MagicTool.UserControls;
 
 namespace MagicTool
 {
@@ -15,6 +16,9 @@ namespace MagicTool
     {
         private Point FormPostion = new Point();
         private List<Panel> TabPagePanelList = new List<Panel>();
+        private List<UserCtrl_ToDoList> UserCtrlToDoListItem = new List<UserCtrl_ToDoList>();
+
+        private Record.FormMain RecordForm = new Record.FormMain();
         public FormMain()
         {
             InitializeComponent();
@@ -28,7 +32,34 @@ namespace MagicTool
             this.TabPagePanelList.Add(this.Panel_Tools);
             this.TabPagePanelList.Add(this.Panel_Add);
 
-            
+
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList1);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList2);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList3);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList4);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList5);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList6);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList7);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList8);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList9);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList10);
+            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList11);
+
+            this.Main_InituserCtrlToDoList();
+        }
+
+        private void Main_InituserCtrlToDoList()
+        {
+            int idx = 1;
+            foreach (UserCtrl_ToDoList item in this.UserCtrlToDoListItem)
+            {
+                item.Key = 0;
+                item.Selected = false;
+                item.Title = "";
+                item.Ctime = "";
+                item.SortIdx = idx.ToString();
+                idx++;
+            }
         }
 
         private void MainClose_Click(object sender, EventArgs e)
@@ -82,9 +113,7 @@ namespace MagicTool
 
         private void PictureBoxRecordButton_Click(object sender, EventArgs e)
         {
-            Record.FormMain record = new Record.FormMain();
-            record.ShowInTaskbar = true;
-            record.ShowDialog();
+            this.RecordForm.Show();
         }
 
         private void FormMain_Paint(object sender, PaintEventArgs e)
@@ -129,5 +158,11 @@ namespace MagicTool
             this.TabControlMain.SelectedTab = this.TabPage_Add;
             this.PicBox_SelectChange(3);
         }
+
+        private void userCtrl_ToDoList1_Click(object sender, EventArgs e)
+        {
+            this.userCtrl_ToDoList1.BackColor = Colors.ToDoListItemSelected;
+        }
+        
     }
 }

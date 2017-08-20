@@ -33,8 +33,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.Label_No = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Label_Title = new System.Windows.Forms.Label();
             this.Label_Ctime = new System.Windows.Forms.Label();
+            this.Label_Title = new System.Windows.Forms.Label();
             this.TLP_MAIN.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -56,7 +56,6 @@
             this.TLP_MAIN.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.TLP_MAIN.Size = new System.Drawing.Size(300, 48);
             this.TLP_MAIN.TabIndex = 1;
-            this.TLP_MAIN.Click += new System.EventHandler(this.TLP_MAIN_Click);
             this.TLP_MAIN.Paint += new System.Windows.Forms.PaintEventHandler(this.TLP_MAIN_Paint);
             this.TLP_MAIN.MouseLeave += new System.EventHandler(this.TLP_MAIN_MouseLeave);
             this.TLP_MAIN.MouseHover += new System.EventHandler(this.TLP_MAIN_MouseHover);
@@ -102,17 +101,8 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(264, 47);
             this.panel1.TabIndex = 2;
-            // 
-            // Label_Title
-            // 
-            this.Label_Title.AutoSize = true;
-            this.Label_Title.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Label_Title.ForeColor = System.Drawing.Color.Blue;
-            this.Label_Title.Location = new System.Drawing.Point(2, 9);
-            this.Label_Title.Name = "Label_Title";
-            this.Label_Title.Size = new System.Drawing.Size(123, 19);
-            this.Label_Title.TabIndex = 0;
-            this.Label_Title.Text = "To do list item title";
+            this.panel1.MouseLeave += new System.EventHandler(this.TLP_MAIN_MouseLeave);
+            this.panel1.MouseHover += new System.EventHandler(this.TLP_MAIN_MouseHover);
             // 
             // Label_Ctime
             // 
@@ -124,6 +114,17 @@
             this.Label_Ctime.Size = new System.Drawing.Size(126, 17);
             this.Label_Ctime.TabIndex = 1;
             this.Label_Ctime.Text = "2017-01-02 14:22:00";
+            // 
+            // Label_Title
+            // 
+            this.Label_Title.AutoSize = true;
+            this.Label_Title.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Label_Title.ForeColor = System.Drawing.Color.Blue;
+            this.Label_Title.Location = new System.Drawing.Point(2, 9);
+            this.Label_Title.Name = "Label_Title";
+            this.Label_Title.Size = new System.Drawing.Size(123, 19);
+            this.Label_Title.TabIndex = 0;
+            this.Label_Title.Text = "To do list item title";
             // 
             // UserCtrl_ToDoList
             // 

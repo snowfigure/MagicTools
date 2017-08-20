@@ -57,8 +57,50 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.TabControlMain = new System.Windows.Forms.TabControl();
             this.TabPage_ToDoList = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel38 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList11 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel37 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList10 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList9 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList8 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList7 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList6 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList5 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList4 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList3 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList2 = new MagicTool.UserControls.UserCtrl_ToDoList();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.userCtrl_ToDoList1 = new MagicTool.UserControls.UserCtrl_ToDoList();
             this.TabPage_Conn = new System.Windows.Forms.TabPage();
             this.TabPage_Tools = new System.Windows.Forms.TabPage();
+            this.TLP_Tools = new System.Windows.Forms.TableLayoutPanel();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
             this.TabPage_Add = new System.Windows.Forms.TabPage();
             this.label4 = new System.Windows.Forms.Label();
             this.LabelMainRecord = new System.Windows.Forms.Label();
@@ -68,38 +110,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.TLP_Tools = new System.Windows.Forms.TableLayoutPanel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel28 = new System.Windows.Forms.Panel();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.panel36 = new System.Windows.Forms.Panel();
-            this.panel37 = new System.Windows.Forms.Panel();
-            this.panel38 = new System.Windows.Forms.Panel();
-            this.userCtrl_ToDoList1 = new MagicTool.UserControls.UserCtrl_ToDoList();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.TLP_Main.SuspendLayout();
@@ -126,12 +136,22 @@
             this.panel7.SuspendLayout();
             this.TabControlMain.SuspendLayout();
             this.TabPage_ToDoList.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.panel38.SuspendLayout();
+            this.panel37.SuspendLayout();
+            this.panel36.SuspendLayout();
+            this.panel35.SuspendLayout();
+            this.panel34.SuspendLayout();
+            this.panel33.SuspendLayout();
+            this.panel32.SuspendLayout();
+            this.panel31.SuspendLayout();
+            this.panel30.SuspendLayout();
+            this.panel29.SuspendLayout();
+            this.panel28.SuspendLayout();
             this.TabPage_Tools.SuspendLayout();
+            this.TLP_Tools.SuspendLayout();
             this.TabPage_Add.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxRecordButton)).BeginInit();
-            this.TLP_Tools.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.panel28.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -485,6 +505,304 @@
             this.TabPage_ToDoList.Text = "           ";
             this.TabPage_ToDoList.UseVisualStyleBackColor = true;
             // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 1;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.Controls.Add(this.panel38, 0, 10);
+            this.tableLayoutPanel5.Controls.Add(this.panel37, 0, 9);
+            this.tableLayoutPanel5.Controls.Add(this.panel36, 0, 8);
+            this.tableLayoutPanel5.Controls.Add(this.panel35, 0, 7);
+            this.tableLayoutPanel5.Controls.Add(this.panel34, 0, 6);
+            this.tableLayoutPanel5.Controls.Add(this.panel33, 0, 5);
+            this.tableLayoutPanel5.Controls.Add(this.panel32, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.panel31, 0, 3);
+            this.tableLayoutPanel5.Controls.Add(this.panel30, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.panel29, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.panel28, 0, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 12;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(308, 596);
+            this.tableLayoutPanel5.TabIndex = 0;
+            // 
+            // panel38
+            // 
+            this.panel38.Controls.Add(this.userCtrl_ToDoList11);
+            this.panel38.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel38.Location = new System.Drawing.Point(0, 480);
+            this.panel38.Margin = new System.Windows.Forms.Padding(0);
+            this.panel38.Name = "panel38";
+            this.panel38.Size = new System.Drawing.Size(308, 48);
+            this.panel38.TabIndex = 10;
+            // 
+            // userCtrl_ToDoList11
+            // 
+            this.userCtrl_ToDoList11.Ctime = null;
+            this.userCtrl_ToDoList11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList11.Key = 0;
+            this.userCtrl_ToDoList11.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList11.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList11.Name = "userCtrl_ToDoList11";
+            this.userCtrl_ToDoList11.Selected = false;
+            this.userCtrl_ToDoList11.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList11.SortIdx = null;
+            this.userCtrl_ToDoList11.TabIndex = 0;
+            this.userCtrl_ToDoList11.Title = null;
+            // 
+            // panel37
+            // 
+            this.panel37.Controls.Add(this.userCtrl_ToDoList10);
+            this.panel37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel37.Location = new System.Drawing.Point(0, 432);
+            this.panel37.Margin = new System.Windows.Forms.Padding(0);
+            this.panel37.Name = "panel37";
+            this.panel37.Size = new System.Drawing.Size(308, 48);
+            this.panel37.TabIndex = 9;
+            // 
+            // userCtrl_ToDoList10
+            // 
+            this.userCtrl_ToDoList10.Ctime = null;
+            this.userCtrl_ToDoList10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList10.Key = 0;
+            this.userCtrl_ToDoList10.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList10.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList10.Name = "userCtrl_ToDoList10";
+            this.userCtrl_ToDoList10.Selected = false;
+            this.userCtrl_ToDoList10.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList10.SortIdx = null;
+            this.userCtrl_ToDoList10.TabIndex = 0;
+            this.userCtrl_ToDoList10.Title = null;
+            // 
+            // panel36
+            // 
+            this.panel36.Controls.Add(this.userCtrl_ToDoList9);
+            this.panel36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel36.Location = new System.Drawing.Point(0, 384);
+            this.panel36.Margin = new System.Windows.Forms.Padding(0);
+            this.panel36.Name = "panel36";
+            this.panel36.Size = new System.Drawing.Size(308, 48);
+            this.panel36.TabIndex = 8;
+            // 
+            // userCtrl_ToDoList9
+            // 
+            this.userCtrl_ToDoList9.Ctime = null;
+            this.userCtrl_ToDoList9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList9.Key = 0;
+            this.userCtrl_ToDoList9.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList9.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList9.Name = "userCtrl_ToDoList9";
+            this.userCtrl_ToDoList9.Selected = false;
+            this.userCtrl_ToDoList9.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList9.SortIdx = null;
+            this.userCtrl_ToDoList9.TabIndex = 0;
+            this.userCtrl_ToDoList9.Title = null;
+            // 
+            // panel35
+            // 
+            this.panel35.Controls.Add(this.userCtrl_ToDoList8);
+            this.panel35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel35.Location = new System.Drawing.Point(0, 336);
+            this.panel35.Margin = new System.Windows.Forms.Padding(0);
+            this.panel35.Name = "panel35";
+            this.panel35.Size = new System.Drawing.Size(308, 48);
+            this.panel35.TabIndex = 7;
+            // 
+            // userCtrl_ToDoList8
+            // 
+            this.userCtrl_ToDoList8.Ctime = null;
+            this.userCtrl_ToDoList8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList8.Key = 0;
+            this.userCtrl_ToDoList8.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList8.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList8.Name = "userCtrl_ToDoList8";
+            this.userCtrl_ToDoList8.Selected = false;
+            this.userCtrl_ToDoList8.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList8.SortIdx = null;
+            this.userCtrl_ToDoList8.TabIndex = 0;
+            this.userCtrl_ToDoList8.Title = null;
+            // 
+            // panel34
+            // 
+            this.panel34.Controls.Add(this.userCtrl_ToDoList7);
+            this.panel34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel34.Location = new System.Drawing.Point(0, 288);
+            this.panel34.Margin = new System.Windows.Forms.Padding(0);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(308, 48);
+            this.panel34.TabIndex = 6;
+            // 
+            // userCtrl_ToDoList7
+            // 
+            this.userCtrl_ToDoList7.Ctime = null;
+            this.userCtrl_ToDoList7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList7.Key = 0;
+            this.userCtrl_ToDoList7.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList7.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList7.Name = "userCtrl_ToDoList7";
+            this.userCtrl_ToDoList7.Selected = false;
+            this.userCtrl_ToDoList7.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList7.SortIdx = null;
+            this.userCtrl_ToDoList7.TabIndex = 0;
+            this.userCtrl_ToDoList7.Title = null;
+            // 
+            // panel33
+            // 
+            this.panel33.Controls.Add(this.userCtrl_ToDoList6);
+            this.panel33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel33.Location = new System.Drawing.Point(0, 240);
+            this.panel33.Margin = new System.Windows.Forms.Padding(0);
+            this.panel33.Name = "panel33";
+            this.panel33.Size = new System.Drawing.Size(308, 48);
+            this.panel33.TabIndex = 5;
+            // 
+            // userCtrl_ToDoList6
+            // 
+            this.userCtrl_ToDoList6.Ctime = null;
+            this.userCtrl_ToDoList6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList6.Key = 0;
+            this.userCtrl_ToDoList6.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList6.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList6.Name = "userCtrl_ToDoList6";
+            this.userCtrl_ToDoList6.Selected = false;
+            this.userCtrl_ToDoList6.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList6.SortIdx = null;
+            this.userCtrl_ToDoList6.TabIndex = 0;
+            this.userCtrl_ToDoList6.Title = null;
+            // 
+            // panel32
+            // 
+            this.panel32.Controls.Add(this.userCtrl_ToDoList5);
+            this.panel32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel32.Location = new System.Drawing.Point(0, 192);
+            this.panel32.Margin = new System.Windows.Forms.Padding(0);
+            this.panel32.Name = "panel32";
+            this.panel32.Size = new System.Drawing.Size(308, 48);
+            this.panel32.TabIndex = 4;
+            // 
+            // userCtrl_ToDoList5
+            // 
+            this.userCtrl_ToDoList5.Ctime = null;
+            this.userCtrl_ToDoList5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList5.Key = 0;
+            this.userCtrl_ToDoList5.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList5.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList5.Name = "userCtrl_ToDoList5";
+            this.userCtrl_ToDoList5.Selected = false;
+            this.userCtrl_ToDoList5.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList5.SortIdx = null;
+            this.userCtrl_ToDoList5.TabIndex = 0;
+            this.userCtrl_ToDoList5.Title = null;
+            // 
+            // panel31
+            // 
+            this.panel31.Controls.Add(this.userCtrl_ToDoList4);
+            this.panel31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel31.Location = new System.Drawing.Point(0, 144);
+            this.panel31.Margin = new System.Windows.Forms.Padding(0);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(308, 48);
+            this.panel31.TabIndex = 3;
+            // 
+            // userCtrl_ToDoList4
+            // 
+            this.userCtrl_ToDoList4.Ctime = null;
+            this.userCtrl_ToDoList4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList4.Key = 0;
+            this.userCtrl_ToDoList4.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList4.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList4.Name = "userCtrl_ToDoList4";
+            this.userCtrl_ToDoList4.Selected = false;
+            this.userCtrl_ToDoList4.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList4.SortIdx = null;
+            this.userCtrl_ToDoList4.TabIndex = 0;
+            this.userCtrl_ToDoList4.Title = null;
+            // 
+            // panel30
+            // 
+            this.panel30.Controls.Add(this.userCtrl_ToDoList3);
+            this.panel30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel30.Location = new System.Drawing.Point(0, 96);
+            this.panel30.Margin = new System.Windows.Forms.Padding(0);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(308, 48);
+            this.panel30.TabIndex = 2;
+            // 
+            // userCtrl_ToDoList3
+            // 
+            this.userCtrl_ToDoList3.Ctime = null;
+            this.userCtrl_ToDoList3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList3.Key = 0;
+            this.userCtrl_ToDoList3.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList3.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList3.Name = "userCtrl_ToDoList3";
+            this.userCtrl_ToDoList3.Selected = false;
+            this.userCtrl_ToDoList3.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList3.SortIdx = null;
+            this.userCtrl_ToDoList3.TabIndex = 0;
+            this.userCtrl_ToDoList3.Title = null;
+            // 
+            // panel29
+            // 
+            this.panel29.Controls.Add(this.userCtrl_ToDoList2);
+            this.panel29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel29.Location = new System.Drawing.Point(0, 48);
+            this.panel29.Margin = new System.Windows.Forms.Padding(0);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(308, 48);
+            this.panel29.TabIndex = 1;
+            // 
+            // userCtrl_ToDoList2
+            // 
+            this.userCtrl_ToDoList2.Ctime = null;
+            this.userCtrl_ToDoList2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userCtrl_ToDoList2.Key = 0;
+            this.userCtrl_ToDoList2.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList2.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList2.Name = "userCtrl_ToDoList2";
+            this.userCtrl_ToDoList2.Selected = false;
+            this.userCtrl_ToDoList2.Size = new System.Drawing.Size(308, 48);
+            this.userCtrl_ToDoList2.SortIdx = null;
+            this.userCtrl_ToDoList2.TabIndex = 0;
+            this.userCtrl_ToDoList2.Title = null;
+            // 
+            // panel28
+            // 
+            this.panel28.Controls.Add(this.userCtrl_ToDoList1);
+            this.panel28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel28.Location = new System.Drawing.Point(0, 0);
+            this.panel28.Margin = new System.Windows.Forms.Padding(0);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(308, 48);
+            this.panel28.TabIndex = 0;
+            // 
+            // userCtrl_ToDoList1
+            // 
+            this.userCtrl_ToDoList1.Ctime = null;
+            this.userCtrl_ToDoList1.Key = 0;
+            this.userCtrl_ToDoList1.Location = new System.Drawing.Point(0, 0);
+            this.userCtrl_ToDoList1.Margin = new System.Windows.Forms.Padding(0);
+            this.userCtrl_ToDoList1.Name = "userCtrl_ToDoList1";
+            this.userCtrl_ToDoList1.Selected = false;
+            this.userCtrl_ToDoList1.Size = new System.Drawing.Size(269, 48);
+            this.userCtrl_ToDoList1.SortIdx = null;
+            this.userCtrl_ToDoList1.TabIndex = 0;
+            this.userCtrl_ToDoList1.Title = null;
+            // 
             // TabPage_Conn
             // 
             this.TabPage_Conn.Location = new System.Drawing.Point(4, 16);
@@ -498,13 +816,212 @@
             // TabPage_Tools
             // 
             this.TabPage_Tools.Controls.Add(this.TLP_Tools);
-            this.TabPage_Tools.Location = new System.Drawing.Point(4, 5);
+            this.TabPage_Tools.Location = new System.Drawing.Point(4, 16);
             this.TabPage_Tools.Name = "TabPage_Tools";
             this.TabPage_Tools.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage_Tools.Size = new System.Drawing.Size(308, 607);
+            this.TabPage_Tools.Size = new System.Drawing.Size(308, 596);
             this.TabPage_Tools.TabIndex = 2;
             this.TabPage_Tools.Text = "           ";
             this.TabPage_Tools.UseVisualStyleBackColor = true;
+            // 
+            // TLP_Tools
+            // 
+            this.TLP_Tools.ColumnCount = 3;
+            this.TLP_Tools.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.TLP_Tools.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.TLP_Tools.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.TLP_Tools.Controls.Add(this.panel27, 2, 5);
+            this.TLP_Tools.Controls.Add(this.panel26, 1, 5);
+            this.TLP_Tools.Controls.Add(this.panel25, 2, 4);
+            this.TLP_Tools.Controls.Add(this.panel24, 1, 4);
+            this.TLP_Tools.Controls.Add(this.panel23, 0, 4);
+            this.TLP_Tools.Controls.Add(this.panel22, 2, 3);
+            this.TLP_Tools.Controls.Add(this.panel21, 1, 3);
+            this.TLP_Tools.Controls.Add(this.panel20, 0, 3);
+            this.TLP_Tools.Controls.Add(this.panel19, 2, 2);
+            this.TLP_Tools.Controls.Add(this.panel18, 1, 2);
+            this.TLP_Tools.Controls.Add(this.panel16, 0, 5);
+            this.TLP_Tools.Controls.Add(this.panel15, 2, 1);
+            this.TLP_Tools.Controls.Add(this.panel14, 1, 1);
+            this.TLP_Tools.Controls.Add(this.panel13, 0, 1);
+            this.TLP_Tools.Controls.Add(this.panel12, 2, 0);
+            this.TLP_Tools.Controls.Add(this.panel9, 1, 0);
+            this.TLP_Tools.Controls.Add(this.panel6, 0, 0);
+            this.TLP_Tools.Controls.Add(this.panel17, 0, 2);
+            this.TLP_Tools.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TLP_Tools.Location = new System.Drawing.Point(3, 3);
+            this.TLP_Tools.Name = "TLP_Tools";
+            this.TLP_Tools.RowCount = 6;
+            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.TLP_Tools.Size = new System.Drawing.Size(302, 590);
+            this.TLP_Tools.TabIndex = 0;
+            // 
+            // panel27
+            // 
+            this.panel27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel27.Location = new System.Drawing.Point(200, 500);
+            this.panel27.Margin = new System.Windows.Forms.Padding(0);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(102, 90);
+            this.panel27.TabIndex = 18;
+            // 
+            // panel26
+            // 
+            this.panel26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel26.Location = new System.Drawing.Point(100, 500);
+            this.panel26.Margin = new System.Windows.Forms.Padding(0);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(100, 90);
+            this.panel26.TabIndex = 17;
+            // 
+            // panel25
+            // 
+            this.panel25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel25.Location = new System.Drawing.Point(200, 400);
+            this.panel25.Margin = new System.Windows.Forms.Padding(0);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(102, 100);
+            this.panel25.TabIndex = 16;
+            // 
+            // panel24
+            // 
+            this.panel24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel24.Location = new System.Drawing.Point(100, 400);
+            this.panel24.Margin = new System.Windows.Forms.Padding(0);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(100, 100);
+            this.panel24.TabIndex = 15;
+            // 
+            // panel23
+            // 
+            this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel23.Location = new System.Drawing.Point(0, 400);
+            this.panel23.Margin = new System.Windows.Forms.Padding(0);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(100, 100);
+            this.panel23.TabIndex = 14;
+            // 
+            // panel22
+            // 
+            this.panel22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel22.Location = new System.Drawing.Point(200, 300);
+            this.panel22.Margin = new System.Windows.Forms.Padding(0);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(102, 100);
+            this.panel22.TabIndex = 13;
+            // 
+            // panel21
+            // 
+            this.panel21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel21.Location = new System.Drawing.Point(100, 300);
+            this.panel21.Margin = new System.Windows.Forms.Padding(0);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(100, 100);
+            this.panel21.TabIndex = 12;
+            // 
+            // panel20
+            // 
+            this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel20.Location = new System.Drawing.Point(0, 300);
+            this.panel20.Margin = new System.Windows.Forms.Padding(0);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(100, 100);
+            this.panel20.TabIndex = 11;
+            // 
+            // panel19
+            // 
+            this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel19.Location = new System.Drawing.Point(200, 200);
+            this.panel19.Margin = new System.Windows.Forms.Padding(0);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(102, 100);
+            this.panel19.TabIndex = 10;
+            // 
+            // panel18
+            // 
+            this.panel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel18.Location = new System.Drawing.Point(100, 200);
+            this.panel18.Margin = new System.Windows.Forms.Padding(0);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(100, 100);
+            this.panel18.TabIndex = 9;
+            // 
+            // panel16
+            // 
+            this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel16.Location = new System.Drawing.Point(0, 500);
+            this.panel16.Margin = new System.Windows.Forms.Padding(0);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(100, 90);
+            this.panel16.TabIndex = 7;
+            // 
+            // panel15
+            // 
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel15.Location = new System.Drawing.Point(200, 100);
+            this.panel15.Margin = new System.Windows.Forms.Padding(0);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(102, 100);
+            this.panel15.TabIndex = 6;
+            // 
+            // panel14
+            // 
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel14.Location = new System.Drawing.Point(100, 100);
+            this.panel14.Margin = new System.Windows.Forms.Padding(0);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(100, 100);
+            this.panel14.TabIndex = 5;
+            // 
+            // panel13
+            // 
+            this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel13.Location = new System.Drawing.Point(0, 100);
+            this.panel13.Margin = new System.Windows.Forms.Padding(0);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(100, 100);
+            this.panel13.TabIndex = 4;
+            // 
+            // panel12
+            // 
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel12.Location = new System.Drawing.Point(200, 0);
+            this.panel12.Margin = new System.Windows.Forms.Padding(0);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(102, 100);
+            this.panel12.TabIndex = 3;
+            // 
+            // panel9
+            // 
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel9.Location = new System.Drawing.Point(100, 0);
+            this.panel9.Margin = new System.Windows.Forms.Padding(0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(100, 100);
+            this.panel9.TabIndex = 2;
+            // 
+            // panel6
+            // 
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Margin = new System.Windows.Forms.Padding(0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(100, 100);
+            this.panel6.TabIndex = 1;
+            // 
+            // panel17
+            // 
+            this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel17.Location = new System.Drawing.Point(0, 200);
+            this.panel17.Margin = new System.Windows.Forms.Padding(0);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(100, 100);
+            this.panel17.TabIndex = 8;
             // 
             // TabPage_Add
             // 
@@ -609,352 +1126,6 @@
             this.panel3.Size = new System.Drawing.Size(316, 36);
             this.panel3.TabIndex = 2;
             // 
-            // TLP_Tools
-            // 
-            this.TLP_Tools.ColumnCount = 3;
-            this.TLP_Tools.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.TLP_Tools.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.TLP_Tools.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.TLP_Tools.Controls.Add(this.panel27, 2, 5);
-            this.TLP_Tools.Controls.Add(this.panel26, 1, 5);
-            this.TLP_Tools.Controls.Add(this.panel25, 2, 4);
-            this.TLP_Tools.Controls.Add(this.panel24, 1, 4);
-            this.TLP_Tools.Controls.Add(this.panel23, 0, 4);
-            this.TLP_Tools.Controls.Add(this.panel22, 2, 3);
-            this.TLP_Tools.Controls.Add(this.panel21, 1, 3);
-            this.TLP_Tools.Controls.Add(this.panel20, 0, 3);
-            this.TLP_Tools.Controls.Add(this.panel19, 2, 2);
-            this.TLP_Tools.Controls.Add(this.panel18, 1, 2);
-            this.TLP_Tools.Controls.Add(this.panel16, 0, 5);
-            this.TLP_Tools.Controls.Add(this.panel15, 2, 1);
-            this.TLP_Tools.Controls.Add(this.panel14, 1, 1);
-            this.TLP_Tools.Controls.Add(this.panel13, 0, 1);
-            this.TLP_Tools.Controls.Add(this.panel12, 2, 0);
-            this.TLP_Tools.Controls.Add(this.panel9, 1, 0);
-            this.TLP_Tools.Controls.Add(this.panel6, 0, 0);
-            this.TLP_Tools.Controls.Add(this.panel17, 0, 2);
-            this.TLP_Tools.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TLP_Tools.Location = new System.Drawing.Point(3, 3);
-            this.TLP_Tools.Name = "TLP_Tools";
-            this.TLP_Tools.RowCount = 6;
-            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.TLP_Tools.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.TLP_Tools.Size = new System.Drawing.Size(302, 601);
-            this.TLP_Tools.TabIndex = 0;
-            // 
-            // panel6
-            // 
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(100, 100);
-            this.panel6.TabIndex = 1;
-            // 
-            // panel9
-            // 
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(100, 0);
-            this.panel9.Margin = new System.Windows.Forms.Padding(0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(100, 100);
-            this.panel9.TabIndex = 2;
-            // 
-            // panel12
-            // 
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel12.Location = new System.Drawing.Point(200, 0);
-            this.panel12.Margin = new System.Windows.Forms.Padding(0);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(102, 100);
-            this.panel12.TabIndex = 3;
-            // 
-            // panel13
-            // 
-            this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel13.Location = new System.Drawing.Point(0, 100);
-            this.panel13.Margin = new System.Windows.Forms.Padding(0);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(100, 100);
-            this.panel13.TabIndex = 4;
-            // 
-            // panel14
-            // 
-            this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel14.Location = new System.Drawing.Point(100, 100);
-            this.panel14.Margin = new System.Windows.Forms.Padding(0);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(100, 100);
-            this.panel14.TabIndex = 5;
-            // 
-            // panel15
-            // 
-            this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel15.Location = new System.Drawing.Point(200, 100);
-            this.panel15.Margin = new System.Windows.Forms.Padding(0);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(102, 100);
-            this.panel15.TabIndex = 6;
-            // 
-            // panel16
-            // 
-            this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel16.Location = new System.Drawing.Point(0, 500);
-            this.panel16.Margin = new System.Windows.Forms.Padding(0);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(100, 101);
-            this.panel16.TabIndex = 7;
-            // 
-            // panel17
-            // 
-            this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel17.Location = new System.Drawing.Point(0, 200);
-            this.panel17.Margin = new System.Windows.Forms.Padding(0);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(100, 100);
-            this.panel17.TabIndex = 8;
-            // 
-            // panel18
-            // 
-            this.panel18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel18.Location = new System.Drawing.Point(100, 200);
-            this.panel18.Margin = new System.Windows.Forms.Padding(0);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(100, 100);
-            this.panel18.TabIndex = 9;
-            // 
-            // panel19
-            // 
-            this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel19.Location = new System.Drawing.Point(200, 200);
-            this.panel19.Margin = new System.Windows.Forms.Padding(0);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(102, 100);
-            this.panel19.TabIndex = 10;
-            // 
-            // panel20
-            // 
-            this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel20.Location = new System.Drawing.Point(0, 300);
-            this.panel20.Margin = new System.Windows.Forms.Padding(0);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(100, 100);
-            this.panel20.TabIndex = 11;
-            // 
-            // panel21
-            // 
-            this.panel21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel21.Location = new System.Drawing.Point(100, 300);
-            this.panel21.Margin = new System.Windows.Forms.Padding(0);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(100, 100);
-            this.panel21.TabIndex = 12;
-            // 
-            // panel22
-            // 
-            this.panel22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel22.Location = new System.Drawing.Point(200, 300);
-            this.panel22.Margin = new System.Windows.Forms.Padding(0);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(102, 100);
-            this.panel22.TabIndex = 13;
-            // 
-            // panel23
-            // 
-            this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel23.Location = new System.Drawing.Point(0, 400);
-            this.panel23.Margin = new System.Windows.Forms.Padding(0);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(100, 100);
-            this.panel23.TabIndex = 14;
-            // 
-            // panel24
-            // 
-            this.panel24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel24.Location = new System.Drawing.Point(100, 400);
-            this.panel24.Margin = new System.Windows.Forms.Padding(0);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(100, 100);
-            this.panel24.TabIndex = 15;
-            // 
-            // panel25
-            // 
-            this.panel25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel25.Location = new System.Drawing.Point(200, 400);
-            this.panel25.Margin = new System.Windows.Forms.Padding(0);
-            this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(102, 100);
-            this.panel25.TabIndex = 16;
-            // 
-            // panel26
-            // 
-            this.panel26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel26.Location = new System.Drawing.Point(100, 500);
-            this.panel26.Margin = new System.Windows.Forms.Padding(0);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(100, 101);
-            this.panel26.TabIndex = 17;
-            // 
-            // panel27
-            // 
-            this.panel27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel27.Location = new System.Drawing.Point(200, 500);
-            this.panel27.Margin = new System.Windows.Forms.Padding(0);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(102, 101);
-            this.panel27.TabIndex = 18;
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 1;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Controls.Add(this.panel38, 0, 10);
-            this.tableLayoutPanel5.Controls.Add(this.panel37, 0, 9);
-            this.tableLayoutPanel5.Controls.Add(this.panel36, 0, 8);
-            this.tableLayoutPanel5.Controls.Add(this.panel35, 0, 7);
-            this.tableLayoutPanel5.Controls.Add(this.panel34, 0, 6);
-            this.tableLayoutPanel5.Controls.Add(this.panel33, 0, 5);
-            this.tableLayoutPanel5.Controls.Add(this.panel32, 0, 4);
-            this.tableLayoutPanel5.Controls.Add(this.panel31, 0, 3);
-            this.tableLayoutPanel5.Controls.Add(this.panel30, 0, 2);
-            this.tableLayoutPanel5.Controls.Add(this.panel29, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.panel28, 0, 0);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 12;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(308, 596);
-            this.tableLayoutPanel5.TabIndex = 0;
-            // 
-            // panel28
-            // 
-            this.panel28.Controls.Add(this.userCtrl_ToDoList1);
-            this.panel28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel28.Location = new System.Drawing.Point(0, 0);
-            this.panel28.Margin = new System.Windows.Forms.Padding(0);
-            this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(308, 48);
-            this.panel28.TabIndex = 0;
-            // 
-            // panel29
-            // 
-            this.panel29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel29.Location = new System.Drawing.Point(0, 48);
-            this.panel29.Margin = new System.Windows.Forms.Padding(0);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(308, 48);
-            this.panel29.TabIndex = 1;
-            // 
-            // panel30
-            // 
-            this.panel30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel30.Location = new System.Drawing.Point(0, 96);
-            this.panel30.Margin = new System.Windows.Forms.Padding(0);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(308, 48);
-            this.panel30.TabIndex = 2;
-            // 
-            // panel31
-            // 
-            this.panel31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel31.Location = new System.Drawing.Point(0, 144);
-            this.panel31.Margin = new System.Windows.Forms.Padding(0);
-            this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(308, 48);
-            this.panel31.TabIndex = 3;
-            // 
-            // panel32
-            // 
-            this.panel32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel32.Location = new System.Drawing.Point(0, 192);
-            this.panel32.Margin = new System.Windows.Forms.Padding(0);
-            this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(308, 48);
-            this.panel32.TabIndex = 4;
-            // 
-            // panel33
-            // 
-            this.panel33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel33.Location = new System.Drawing.Point(0, 240);
-            this.panel33.Margin = new System.Windows.Forms.Padding(0);
-            this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(308, 48);
-            this.panel33.TabIndex = 5;
-            // 
-            // panel34
-            // 
-            this.panel34.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel34.Location = new System.Drawing.Point(0, 288);
-            this.panel34.Margin = new System.Windows.Forms.Padding(0);
-            this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(308, 48);
-            this.panel34.TabIndex = 6;
-            // 
-            // panel35
-            // 
-            this.panel35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel35.Location = new System.Drawing.Point(0, 336);
-            this.panel35.Margin = new System.Windows.Forms.Padding(0);
-            this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(308, 48);
-            this.panel35.TabIndex = 7;
-            // 
-            // panel36
-            // 
-            this.panel36.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel36.Location = new System.Drawing.Point(0, 384);
-            this.panel36.Margin = new System.Windows.Forms.Padding(0);
-            this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(308, 48);
-            this.panel36.TabIndex = 8;
-            // 
-            // panel37
-            // 
-            this.panel37.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel37.Location = new System.Drawing.Point(0, 432);
-            this.panel37.Margin = new System.Windows.Forms.Padding(0);
-            this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(308, 48);
-            this.panel37.TabIndex = 9;
-            // 
-            // panel38
-            // 
-            this.panel38.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel38.Location = new System.Drawing.Point(0, 480);
-            this.panel38.Margin = new System.Windows.Forms.Padding(0);
-            this.panel38.Name = "panel38";
-            this.panel38.Size = new System.Drawing.Size(308, 48);
-            this.panel38.TabIndex = 10;
-            // 
-            // userCtrl_ToDoList1
-            // 
-            this.userCtrl_ToDoList1.Ctime = null;
-            this.userCtrl_ToDoList1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.userCtrl_ToDoList1.Location = new System.Drawing.Point(0, 0);
-            this.userCtrl_ToDoList1.Name = "userCtrl_ToDoList1";
-            this.userCtrl_ToDoList1.Selected = false;
-            this.userCtrl_ToDoList1.Size = new System.Drawing.Size(308, 48);
-            this.userCtrl_ToDoList1.SortIdx = 1;
-            this.userCtrl_ToDoList1.TabIndex = 0;
-            this.userCtrl_ToDoList1.Title = null;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -999,13 +1170,23 @@
             this.panel7.ResumeLayout(false);
             this.TabControlMain.ResumeLayout(false);
             this.TabPage_ToDoList.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.panel38.ResumeLayout(false);
+            this.panel37.ResumeLayout(false);
+            this.panel36.ResumeLayout(false);
+            this.panel35.ResumeLayout(false);
+            this.panel34.ResumeLayout(false);
+            this.panel33.ResumeLayout(false);
+            this.panel32.ResumeLayout(false);
+            this.panel31.ResumeLayout(false);
+            this.panel30.ResumeLayout(false);
+            this.panel29.ResumeLayout(false);
+            this.panel28.ResumeLayout(false);
             this.TabPage_Tools.ResumeLayout(false);
+            this.TLP_Tools.ResumeLayout(false);
             this.TabPage_Add.ResumeLayout(false);
             this.TabPage_Add.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxRecordButton)).EndInit();
-            this.TLP_Tools.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.panel28.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1083,6 +1264,16 @@
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Panel panel29;
         private UserControls.UserCtrl_ToDoList userCtrl_ToDoList1;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList2;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList3;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList4;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList5;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList6;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList7;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList8;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList9;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList10;
+        private UserControls.UserCtrl_ToDoList userCtrl_ToDoList11;
     }
 }
 
