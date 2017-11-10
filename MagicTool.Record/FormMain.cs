@@ -58,5 +58,10 @@ namespace MagicTool.Record
         {
             e.Graphics.DrawRectangle(Pens.Black, 0, 0, this.Width - 1, this.Height - 1);
         }
+
+        private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ;
+        }
     }
 }

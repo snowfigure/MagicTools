@@ -12,14 +12,14 @@ using MagicTool.UserControls;
 
 namespace MagicTool
 {
-    public partial class FormMain : Form
+    public partial class MagicToolMain : Form
     {
         private Point FormPostion = new Point();
         private List<Panel> TabPagePanelList = new List<Panel>();
         private List<UserCtrl_ToDoList> UserCtrlToDoListItem = new List<UserCtrl_ToDoList>();
 
         private Record.FormMain RecordForm = new Record.FormMain();
-        public FormMain()
+        public MagicToolMain()
         {
             InitializeComponent();
         }
@@ -31,19 +31,6 @@ namespace MagicTool
             this.TabPagePanelList.Add(this.Panel_Conn);
             this.TabPagePanelList.Add(this.Panel_Tools);
             this.TabPagePanelList.Add(this.Panel_Add);
-
-
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList1);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList2);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList3);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList4);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList5);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList6);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList7);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList8);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList9);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList10);
-            this.UserCtrlToDoListItem.Add(this.userCtrl_ToDoList11);
 
             this.Main_InituserCtrlToDoList();
         }
@@ -113,7 +100,24 @@ namespace MagicTool
 
         private void PictureBoxRecordButton_Click(object sender, EventArgs e)
         {
-            this.RecordForm.Show();
+            if (this.RecordForm.Created)
+            {
+                this.RecordForm.Activate();
+                this.RecordForm.Focus();
+            }
+            else
+            {
+                this.RecordForm = new Record.FormMain();
+                this.RecordForm.Show();
+            }
+            
+           
+           
+        }
+
+        public void CloseRecordForm()
+        {
+            this.RecordForm = null;
         }
 
         private void FormMain_Paint(object sender, PaintEventArgs e)
@@ -161,7 +165,7 @@ namespace MagicTool
 
         private void userCtrl_ToDoList1_Click(object sender, EventArgs e)
         {
-            this.userCtrl_ToDoList1.BackColor = Colors.ToDoListItemSelected;
+           ;
         }
         
     }
